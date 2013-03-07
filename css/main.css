@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -11,8 +11,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -60,14 +60,13 @@ font-family: 'Playfair Display', serif;
 
 body {
 	background-image: url('../img/body.png');
-	font-family: 'Lato', sans-serif;
-	color: #3b3d4a;
+	font-family: 'Open Sans', sans-serif;
+	color: #343B3D;
 }
 
 .container {
 	width: 960px;
 	margin: 0 auto;
-	background-color: #f0efed;
 }
 
 /*design color pattern**************/
@@ -109,27 +108,32 @@ div.beige {
 
 /*header*/
 
-h1 {
-	font-size: 120px;
-	font-family: 'Open Sans', sans-serif;
- 	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+header {
 	clear: both;
-	margin-left: 40px;
+	width: 100%;
+	background: rgba(197,192,189, 0.3);
+	background: rgba(52,119,189, 0.3);
 }
 
-.ux {
+h1 {
 	font-size: 80px;
-	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
-	margin-left: 40px;
-	font-style: italic;
+	font-family: 'Montserrat Alternates', sans-serif;
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.7);
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 960px;
 }
 
-.amp {
-	font-family: 'Playfair Display', serif;
-	font-size: 150px;
-	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
-	margin-left: 40px;
-	display: inline;
+.titles {
+	font-size: 80px;
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.7);
+	font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+	width: 960px;
+}
+
+.titles span {
+	display: none;
 }
 
 .button {
@@ -146,36 +150,29 @@ h1 {
 	display: block;
 	margin: -126px 0 30px 300px;
 }
-.developer {
-	font-size: 80px;
-	text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
-	margin-left: 40px;
-	font-style: italic;
-}
 
 hr {
-	margin: 60px auto 20px;
-	width: 90%;
+	margin: 40px auto 20px;
+	width: 100%;
 	height: 1px solid #3b3d4a;
 	border-bottom: 1px solid white;
 }
 
-/*chart*******************/
-
-.skills {
-	width: 400px;
-}
 /*main*************/
 
-.main {
-	clear: both;
+#experience {
+	background-color: rgba(240,108,79, .5);
+	background: rgba(197,192,189, 0.3);
+	padding: 20px;
+	text-shadow: 0 1px white;
 }
 
 .info {
-	clear: both;
+	margin: 20px;
 	width: 560px;
 	float: left;
-	margin: 10px 20px 20px 20px;
+	line-height: 1.5em;
+
 }
 
 h2 {
@@ -186,16 +183,13 @@ h2 {
 h3 {
 	font-size: 20px;
 	font-style: italic;
+	margin-top: 20px;
 }
 
-h4 {
-	font-size: 10px;
-	font-style: italic;
-}
 
 figure {
 	float: left;
-	margin: 0 auto 100px;
+	margin: 20px;
 }
 
 footer {
