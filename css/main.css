@@ -161,8 +161,11 @@ hr {
 
 #experience {
 	background: rgba(197,192,189, 0.3);
-	padding: 20px;
+	padding: 20px 20px 20px 5px;
 	text-shadow: 0 1px white;
+	margin-left: 10px;
+	font-size: 50px;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .info {
